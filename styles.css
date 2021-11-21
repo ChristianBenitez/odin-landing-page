@@ -106,11 +106,27 @@ p.secondary-text{
 .quote-section{
     background-color: #E5E7EB;
     color: #1F2937;
-    size: 36px;
-    font-weight:300; 
-    font-style: italic;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10em;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight:300;
+    width: 1000px; 
+    flex-grow: 3;
+    font-style: italic;
+    flex: 0 1 80%;
+    
+}
+.quote-author{
+    font-size: 36px;
+    align-self: flex-end;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15%;
 }
 
 .ad {
