@@ -32,6 +32,7 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 p.secondary-text{
     flex-shrink: 3;
 
@@ -67,8 +68,39 @@ p.secondary-text{
     flex: 0 1 auto;
 }
 
+.info-card-section{
+    display: flex;
+    min-height: 25%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.info-card-header{
+    text-align: center;
+    padding: 1em 10em;
+}
+
 .info-cards{
     display: flex;
+    flex-wrap: nowrap;
+    padding: 1% 23% 4% 27%;
+    gap: 75px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 175px;
+    text-align: center;
+    align-items: center;
+}
+
+.card-image{
+    border-style: solid;
+    border: 5px solid #3882F6;
+    border-radius: 15%;
+    height: 200px;
+    width: 200px;
 }
 
 .quote-section{
@@ -78,10 +110,12 @@ p.secondary-text{
     font-weight:300; 
     font-style: italic;
     display: flex;
+    padding: 10em;
 }
 
 .ad {
     display: flex;
+    padding: 10em;
 }
 
 button{
@@ -99,9 +133,6 @@ footer{
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: center;
-}
-
-.footer-text{
     size: 18px;
-    align-self: center;
+    text-align: center;
 }
