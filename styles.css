@@ -121,6 +121,7 @@ p.secondary-text{
     flex: 0 1 80%;
     
 }
+
 .quote-author{
     font-size: 36px;
     align-self: flex-end;
@@ -129,11 +130,36 @@ p.secondary-text{
     padding-right: 15%;
 }
 
-.ad {
+.ad-section {
     display: flex;
-    padding: 10em;
+    background-color:#F9FAF8;
+    padding: 5%;
+    justify-content: center;
 }
-
+.ad{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border :5px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding-right: 7em;
+}
+.ad-text{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10em 1em 7em;
+    font-size: 18px;
+}
+.ad-button{
+    align-self: center;
+    background-color:  #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 6em;
+    height: 1.8em;
+    color: #F9FAF8;
+}
 button{
     background-color:  #3882F6;
     border: 3px #3882F6;
